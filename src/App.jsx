@@ -1,11 +1,17 @@
 import React from "react";
-// import First from "./components/props/First";
+import FirstProp from "./components/props/FirstProp";
 
 const App = () => {
+  // let webTech = [
+  //   { id: 1, name: "HTML" },
+  //   { id: 2, name: "JS" },
+  //   { id: 3, name: "JAVA" },
+  //   { id: 4, name: "CSS" },
+  // ];
+
   return (
     <>
-      {/* <First /> */}
-      <h1>Hello world</h1>
+      <FirstProp />
     </>
   );
 };
