@@ -1,5 +1,6 @@
 import React from "react";
-import FirstProp from "./components/props/FirstProp";
+// import FirstProp from "./components/props/FirstProp";
+import ClickEvent from "./components/events/ClickEvent";
 
 const App = () => {
   // let webTech = [
@@ -11,7 +12,8 @@ const App = () => {
 
   return (
     <>
-      <FirstProp />
+      {/* <FirstProp /> */}
+      <ClickEvent />
     </>
   );
 };
