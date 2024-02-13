@@ -1,8 +1,10 @@
 import React from "react";
+// import Todo from "./components/hooks/useState/Todo";
+import FirstState from "./components/hooks/useState/FirstState";
 // import FirstProp from "./components/props/FirstProp";
 // import ClickEvent from "./components/events/ClickEvent";
 // import CarClass from "./components/events/CarClass";
-import Parent from "./components/props/Parent";
+// import Parent from "./components/props/Parent";
 
 const App = () => {
   // let webTech = [
@@ -16,8 +18,10 @@ const App = () => {
     <>
       {/* <FirstProp /> */}
       {/* <ClickEvent />
-      <CarClass /> */}
-      <Parent />
+      // <CarClass /> 
+      {/* <Parent /> */}
+      {/* <Todo /> */}
+      <FirstState />
     </>
   );
 };
