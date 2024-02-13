@@ -1,6 +1,8 @@
 import React from "react";
 // import FirstProp from "./components/props/FirstProp";
-import ClickEvent from "./components/events/ClickEvent";
+// import ClickEvent from "./components/events/ClickEvent";
+// import CarClass from "./components/events/CarClass";
+import Parent from "./components/props/Parent";
 
 const App = () => {
   // let webTech = [
@@ -13,7 +15,9 @@ const App = () => {
   return (
     <>
       {/* <FirstProp /> */}
-      <ClickEvent />
+      {/* <ClickEvent />
+      <CarClass /> */}
+      <Parent />
     </>
   );
 };

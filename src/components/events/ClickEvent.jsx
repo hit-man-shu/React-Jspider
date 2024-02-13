@@ -5,7 +5,7 @@ const ClickEvent = () => {
   const [color, setColor] = useState(false);
 
   const handleClick = () => {
-    setColor(!color);
+    setColor((prevColor) => !prevColor);
   };
 
   let a = "Himanshu";
@@ -17,7 +17,7 @@ const ClickEvent = () => {
     <div className="text-3xl">
       <h1 className={color ? "bg-red-500" : ""}>Click</h1>
       <div className="flex gap-3 p-12">
-        <Button onClick={handleClick}>Submit</Button>
+        <Button onClick={handleClick}>Change Color</Button>
         <Button onClick={() => print(a)}>Print</Button>
       </div>
     </div>
